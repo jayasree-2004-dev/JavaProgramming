@@ -1,0 +1,7 @@
+class StringProgrammainClass
+{
+    public static void main(String[] args) {
+        String input = "level amazing racecar"; // Example input
+        String result = processString(input);
+        System.out.println(result);
+    }

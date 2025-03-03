@@ -1,0 +1,22 @@
+class Printpattern6
+{
+public static void main(String[] args)
+{
+int spaceCount=4;
+int starCount=1;
+for(int r=1;r<=5;r++)
+{
+for(int c=1;c<=spaceCount;c++)
+{
+System.out.print(" ");
+}
+for(int a=1;a<=starCount;a++)
+	{
+	System.out.println("*");
+	}
+	starCount++;
+	spaceCount--;
+System.out.println();
+}
+}
+}
